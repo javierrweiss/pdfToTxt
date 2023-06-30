@@ -1,4 +1,4 @@
-(ns sanatoriocolegiales.pdfToTxt-test
+(ns javierweiss.pdfToTxt-test
   (:require [clojure.test :refer :all]
             [sanatoriocolegiales.pdfToTxt :refer :all]))
 
