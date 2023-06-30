@@ -1,4 +1,4 @@
-(ns sanatoriocolegiales.conversion
+(ns javierweiss.conversion
   (:require [clojure.java.io :as io]
             [pdfboxing.text :as text]
             [clojure.string :as s]
