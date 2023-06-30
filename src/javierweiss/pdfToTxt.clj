@@ -1,4 +1,4 @@
-(ns sanatoriocolegiales.pdfToTxt
+(ns javierweiss.pdfToTxt
   (:require [cli-matic.core :refer [run-cmd]]
             [sanatoriocolegiales.conversion :refer [convertir]])
   (:gen-class))
