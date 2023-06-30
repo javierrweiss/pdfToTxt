@@ -1,0 +1,17 @@
+{:paths ["src" "resources" "target/classes"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        cli-matic/cli-matic
+        {:git/url "https://github.com/l3nz/cli-matic.git"
+         :sha "374b2ad71843c07b9d2ddfc1d4439bd7f8ebafab"}
+        pdfboxing/pdfboxing {:mvn/version "0.1.15.3-SNAPSHOT"}
+        babashka/fs {:mvn/version "0.4.19"}
+        com.github.clj-easy/graal-build-time {:mvn/version "0.1.4"}}
+ :aliases
+ {:run-m {:main-opts ["-m" "sanatoriocolegiales.pdfToTxt"]} 
+  :build {:deps {io.github.clojure/tools.build
+                 {:git/tag "v0.9.2" :git/sha "fe6b140"}}
+          :ns-default build}
+  :test {:extra-paths ["test"]
+         :extra-deps {org.clojure/test.check {:mvn/version "1.1.1"}
+                      io.github.cognitect-labs/test-runner
+                      {:git/tag "v0.5.1" :git/sha "dfb30dd"}}}}}
