@@ -8,7 +8,7 @@
          :description "Lee archivos en pdf del directorio de origen y los convierte en archivos txt en el directorio de destino"
          :version "0.0.1"} 
    :commands [{:command "exec" :short "e"
-               :examples ["java -jar sanatoriocolegiales.pdfToTxt-0.1.0-SNAPSHOT.jar e '/user/Docs/' '/home/fulano/txts/'"]
+               :examples ["java -jar pdfToTxt-0.1.0-SNAPSHOT.jar e '/user/Docs/' '/home/fulano/txts/'"]
                :runs convertir}]})
 
 (defn -main
