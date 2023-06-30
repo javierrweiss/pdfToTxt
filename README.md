@@ -10,7 +10,7 @@ Download from https://github.com/javierweiss/pdfToTxt
 
 Recibe dos parámetros, la carpeta donde se encuentran los archivos PDF a convertir y la carpeta de destino donde se almacenarán los archivos .txt resultantes
 
-java -jar <nombre-del-jar>.jar exec <directorio de origen> <directorio de destino>
+    $ java -jar <nombre-del-jar>.jar exec <directorio de origen> <directorio de destino>
 
 O desde Clojure CLI:
 
